@@ -1,0 +1,13 @@
+{
+  "name": "IFBA-Ihéus Save Notícias",
+  "description": "Salve as noticias do IFBA-Ilhéus para ler mais tarde.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "tabs", "storage", "background"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "48": "assets/icons/iconifba.png"
+  }
+}
