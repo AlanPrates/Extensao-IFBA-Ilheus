@@ -70,7 +70,7 @@ function renderPost({ user, slug, title }) {
 
 function renderPosts(posts) {
     if (posts.length === 0) {
-        $message.textContent = 'Você não poussuí noticias salvas!';
+        $message.textContent = 'Você não possui noticias salvas!';
     }
 
     $postList.innerHTML = '';
